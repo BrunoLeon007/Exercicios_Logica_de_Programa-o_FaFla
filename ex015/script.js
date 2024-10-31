@@ -1,4 +1,4 @@
-var nome = prompt("Qual seu nome")
-var cor = prompt("Qual sua cor favorita")
+var primeiroLado = Number(prompt("Digite o valor da primeira metragem do retangulo"))
+var segundoLado = Number(prompt("Digite o valor da segunda metragem do retangulo"))
 
-alert(`Meu nome é ${nome} Minha cor favorita é ${cor}`)
+alert(`Valor calculado da area do retangulo é: ${primeiroLado * segundoLado}²`)

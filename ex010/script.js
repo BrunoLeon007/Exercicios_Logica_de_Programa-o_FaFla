@@ -1,4 +1,5 @@
-var nome = prompt("Qual seu nome")
-var cor = prompt("Qual sua cor favorita")
+var primeiroValor = Number(prompt("Digite primeiro valor"))
 
-alert(`Meu nome é ${nome} Minha cor favorita é ${cor}`)
+var metade = primeiroValor / 2
+
+alert(`A metade do valor é: ${primeiroValor/2}`)

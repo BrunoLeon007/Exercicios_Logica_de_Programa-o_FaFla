@@ -1,4 +1,4 @@
-var nome = prompt("Qual seu nome")
-var cor = prompt("Qual sua cor favorita")
+var primeiroValor = prompt("Digite o primeiro valor")
+var segundoValor = prompt("Digite o segundo valor")
 
-alert(`Meu nome é ${nome} Minha cor favorita é ${cor}`)
+alert(`A exibição é: ${segundoValor + primeiroValor}`)

@@ -1,4 +1,3 @@
-var nome = prompt("Qual seu nome")
-var cor = prompt("Qual sua cor favorita")
-
-alert(`Meu nome é ${nome} Minha cor favorita é ${cor}`)
+var salarioSimples = Number(prompt("Digite o valor de seu salario"))
+var bonusSalario = 500
+alert(`salario acrescido de bonus é:  R$${salarioSimples + bonusSalario}`)

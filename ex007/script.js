@@ -1,4 +1,5 @@
-var nome = prompt("Qual seu nome")
-var cor = prompt("Qual sua cor favorita")
+var primeiroValor = Number(prompt("Digite primeiro valor"))
+var segundoValor = Number(prompt("Digite segundo valor"))
+var produto = primeiroValor * segundoValor
 
-alert(`Meu nome é ${nome} Minha cor favorita é ${cor}`)
+alert(`O valor do produto é: ${primeiroValor*segundoValor}`)

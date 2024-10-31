@@ -1,4 +1,3 @@
-var nome = prompt("Qual seu nome")
-var cor = prompt("Qual sua cor favorita")
+var ladoQuadrado = Number(prompt("Digite o valor de um dos lados do quadrado "))
 
-alert(`Meu nome é ${nome} Minha cor favorita é ${cor}`)
+alert(`Valor da area do quadrado corresponde a ${ladoQuadrado * ladoQuadrado}²`) /*para digitar quadrado alt+0178*/

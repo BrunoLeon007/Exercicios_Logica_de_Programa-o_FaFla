@@ -1,4 +1,6 @@
-var nome = prompt("Qual seu nome")
-var cor = prompt("Qual sua cor favorita")
+var baseTriangulo = Number(prompt("Qual a Base do Triangulo?"))
+var alturaTriangulo = Number(prompt("Qual a Altura do Triangulo?"))
+var areaTriangulo = baseTriangulo * alturaTriangulo 
 
-alert(`Meu nome é ${nome} Minha cor favorita é ${cor}`)
+alert(`A área calculada deste triangulo é: ${ areaTriangulo / 2}`)
+

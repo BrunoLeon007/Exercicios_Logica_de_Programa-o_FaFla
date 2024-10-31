@@ -1,4 +1,3 @@
-var nome = prompt("Qual seu nome")
-var cor = prompt("Qual sua cor favorita")
+var valorDolar = Number(prompt("Digite valor Dolar"))
+alert(`Valor convertido em reais data atual é R$${ valorDolar * 5.3},00`)
 
-alert(`Meu nome é ${nome} Minha cor favorita é ${cor}`)

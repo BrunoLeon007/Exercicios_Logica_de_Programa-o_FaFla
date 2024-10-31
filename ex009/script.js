@@ -1,4 +1,5 @@
-var nome = prompt("Qual seu nome")
-var cor = prompt("Qual sua cor favorita")
+var primeiroValor = Number(prompt("Digite primeiro valor"))
 
-alert(`Meu nome é ${nome} Minha cor favorita é ${cor}`)
+var dobro = primeiroValor * primeiroValor
+
+alert(`O dobro do valor é: ${primeiroValor*primeiroValor}`)
