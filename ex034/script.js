@@ -13,11 +13,3 @@ else(horario >=0 && horario <=4)
 
 
 
-
-
-
-
-
-
-
-

@@ -12,5 +12,3 @@ else(numero = 0)
 
 
 
-
-
