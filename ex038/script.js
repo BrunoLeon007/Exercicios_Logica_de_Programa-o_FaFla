@@ -1,6 +1,9 @@
-var nota = Number(prompt("Digite sua Nota"))
-var verificacaoNota = idade >= 60 ? "Aprovado!" : "Reprovado!"
-alert(verificacaoNota)
+var nome = prompt("qual seu nome")
+if(nome.length > 5){
+   alert("Nome longo")
+}else{
+   alert("Nome curto")
+}
 
 
 

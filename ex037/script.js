@@ -1,6 +1,9 @@
-var nota = Number(prompt("Digite sua Nota"))
-var verificacaoNota = idade >= 60 ? "Aprovado!" : "Reprovado!"
-alert(verificacaoNota)
+var java = prompt("escolha a linguagem")
+if(java === "javascript"){
+   alert(`Você escolheu a linguagem certa`)
+}else{
+   alert(`Escolha outra linguagem`)
+}
 
 
 
