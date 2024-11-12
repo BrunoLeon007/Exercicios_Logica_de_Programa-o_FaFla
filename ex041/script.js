@@ -1,4 +1,4 @@
-var clima = Number(prompt("digite a temperatura"))
+var clima = Number(prompt("Digite a temperatura"))
 if(clima < 15){
    alert("frio")
 }else if(clima =>15 && clima < 26){
