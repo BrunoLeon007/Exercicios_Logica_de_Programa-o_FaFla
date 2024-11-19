@@ -1,52 +1,53 @@
-var numero1 = Number(document.querySelector("#numero1")).value
-var numero2 = Number(document.querySelector("#numero2")).value
-var btnSomar = document.querySelector("#somaResultado")
+var numero1 = document.querySelector("#numero1")
+var numero2 = document.querySelector("#numero2")
+var btnSomar = document.querySelector("#somarResultado")
 var btnSubtrair = document.querySelector("#subtrairResultado")
 var btnMultiplicar = document.querySelector("#multiplicarResultado")
 var btnDividir = document.querySelector("#dividirResultado")
-var btnResultado = document.querySelector("#res")
+var resultado = document.querySelector("#res")
 
 btnSomar.addEventListener("click", soma)
-btnSubtrair.addEventListener("click",subtrair )
-btnMultiplicar.addEventListener("click",multiplicar )
-btnDividir.addEventListener("click", dividir )
-btnResultado.addEventListener("click", resultado)
+btnSubtrair.addEventListener("click", subtrair)
+btnMultiplicar.addEventListener("click", multiplicar)
+btnDividir.addEventListener("click", dividir)
 
-alert(soma(numero1,numero2))
+function soma() {
+   var n1Convertido = Number(numero1.value)
+   var n2Convertido = Number(numero2.value)
 
-function soma(numero1,numero2){
-    var soma = numero1 + numero2
-    
-    
-    
-    }
-    alert(soma(n1,n2))
+   var soma = n1Convertido + n2Convertido
 
-    function subtrair(numero1,numero2){
-        var subtrair = numero1 - numero2
-        
-        
-        
-        
-        }
-        alert(multiplicar(n1,n2))
+   resultado.innerHTML = soma
+}
 
-        function multiplicar(numero1,numero2){
-            var multiplicar = numero1 * numero2
-            
-            
-            
-            
-            }
-            alert(dividir(n1,n2))
 
-            function dividir(numero1,numero2){
-                var soma = numero1 / numero2
-                
-                
-                
-                
-                }
-                alert(dividir(n1,n2))
+function subtrair() {
+  resultado.innerHTML = Number(numero1.value) - Number(numero2.value)
+
+}
+
+
+function multiplicar() {
+  // converter primeiro numero
+  // converter segundo numero
+  // multiplicar os numeros convertidos
+
+  // apresentar no html
+
+   var n1Convertido = Number(numero1.value)
+   var n2Convertido = Number(numero2.value)
+
+   var multiplicar = n1Convertido * n2Convertido
+
+   resultado.innerHTML = multiplicar
+   
+
+
+}
+
+
+function dividir() {
+resultado.innerHTML = Number(numero1.value) / Number(numero2.value)
+}
 
 
